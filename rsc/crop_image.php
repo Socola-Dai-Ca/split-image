@@ -2,7 +2,7 @@
 
 error_reporting(0);
 
-$privatekey = "6Lfx53YUAAAAAOo6mX-ptCSrjZaagC4vcF9VP9K_";
+$privatekey = "recatcha_secret_key";
 
 if ($_POST) {
     $response = $_POST["g-recaptcha-response"];
